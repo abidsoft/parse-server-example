@@ -32,7 +32,7 @@ app.get('/', function(req, res) {
   res.status(200).send('I dream of being a web site.');
 });
 
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 1338;
 app.listen(port, function() {
     console.log('parse-server-example running on port ' + port + '.');
 });
